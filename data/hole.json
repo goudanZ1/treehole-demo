@@ -1,0 +1,25 @@
+[
+  {
+    "pid": 7567292,
+    "user": "理塘丁真",
+    "text": "我是理塘丁真",
+    "timestamp": 1752307339,
+    "commentNum": 0,
+    "likeNum": 1,
+    "likedBy": [
+      "理塘丁真"
+    ]
+  },
+  {
+    "pid": 7567291,
+    "user": "千早爱音",
+    "text": "我是千早爱音",
+    "timestamp": 1752307179,
+    "commentNum": 5,
+    "likeNum": 2,
+    "likedBy": [
+      "千早爱音",
+      "电棍"
+    ]
+  }
+]
