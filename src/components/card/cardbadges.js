@@ -17,19 +17,19 @@ export function CommentBadge({ commentNum }) {
 
 /**
  * LikeBadge 组件 - 显示收藏数和收藏图标（如果没有收藏就不显示）
+ * 
  */
 export function LikeBadge({ likeNum, isLike }) {
   if (!likeNum || likeNum === 0) {
     return null;
   }
 
-  // 根据用户是否收藏来决定图标是空心的星星还是实心的星星
-  const iconName = isLike ? "star-full" : "star-empty";
-
+  // isLike 为真表示已经收藏，isLike 为 false 表示还未收藏
+  
   return (
     <div className="flex items-center gap-1.25">
       <span>{likeNum}</span>
-      <Icon name={iconName} />
+      <Icon name="star-empty" />
     </div>
   );
 }

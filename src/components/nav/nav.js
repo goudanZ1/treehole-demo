@@ -15,7 +15,7 @@ export default function Nav() {
       </div>
 
       {/* 导航链接和用户名输入框 */}
-      <div className="flex flex-col gap-3 items-center justify-center md:flex-row md:gap-6">
+      <div className="flex flex-row gap-6 items-center justify-center">
         <div className="flex items-center justify-center gap-3">
           <NavLink iconName="home" text="首页" href="/" />
           <NavLink iconName="plus" text="发表" href="/send" />

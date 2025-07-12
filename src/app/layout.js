@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
           className="fixed inset-0 -z-10 bg-white bg-cover bg-center opacity-75"
           style={{
             backgroundImage:
-              'url("https://www.pku.edu.cn/Uploads/Picture/2025/07/11/s6870f66b60235.jpg")',
+              'url("/background.jpg")',
           }}
         />
         {/* 固定导航栏 */}
